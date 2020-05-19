@@ -3,7 +3,7 @@
 set -e
 
 BUILD_VER=330
-REPO_NAME=uprush
+REPO_NAME=olegsimanov
 
 # Build docker image.
 docker build --build-arg PRESTO_VERSION=$BUILD_VER \
