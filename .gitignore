@@ -4,3 +4,4 @@ benchmark/tpcds
 benchmark/tpcds-ddl
 *.log
 .DS_Store
+.idea/

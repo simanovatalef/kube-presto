@@ -19,7 +19,6 @@ ENV PRESTO_HOME="/opt/presto-server"
 
 # Minimum config
 COPY node.properties $PRESTO_HOME/etc
-COPY hive.properties $PRESTO_HOME/etc/catalog
 
 # Entry point
 COPY entrypoint.sh /opt

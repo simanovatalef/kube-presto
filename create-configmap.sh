@@ -3,7 +3,7 @@
 BASE=`dirname $0`
 BASE=`cd $BASE; pwd`
 
-NAMESPACE=warehouse
+NAMESPACE=presto
 
 # Create configmap under etc
 CMD="kubectl -n $NAMESPACE create configmap presto-etc "
